@@ -1,0 +1,147 @@
+/* Override */
+
+body {
+    background-color: black;
+  }
+  html *
+  {
+     color: white ;
+     font-family: 'Trebuchet MS'!important;
+  }
+  textarea{
+    color: black;
+  }
+  input{
+    color: black;
+  }
+
+  h1 {
+    margin-left: 700px;
+    display: inline-block;
+  }
+  p {
+    color: black;
+
+  }
+
+
+/* Classes */
+
+/* Containers */
+/* --------------------------------------------------------------------- */
+
+  .TitleContainer{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline;
+  }
+  .TitleContainer,img{
+    width: 7%;
+    height: auto;
+  }
+  .CustomTraining{
+    position: absolute;
+    bottom: 200px;
+    right: 800px;
+  
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+  
+  }
+.forwardAndDefence{
+  position:absolute;
+  bottom: 330px;
+  right: 1400px;
+
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-right: 60px;
+  margin-left: 800px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+
+}
+.Goaltending{
+  position:absolute;
+  bottom: 300px;
+  left: 500px;
+  
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-right: 60px;
+  margin-left: 800px;
+  margin-right: 800px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+
+}
+  
+/* --------------------------------------------------------------------- */
+.navBar{
+  background-color: rgba(210, 210, 210, 1);
+}
+  a.button {
+    appearance: button;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+  color: white;
+  background-color: rgba(148, 145, 145, 1);
+  border-radius: 5px;
+  font-size: 20px;
+}
+a.button:visited {
+color: white;
+}
+a.button:hover {
+  background-color: #d0d0d0;
+}
+a.button:active {
+  background-color: #a7a5a5;
+}
+.navBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.CustomTraining{
+  max-width: 400px;
+  max-height: 2000px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 0px;
+  
+}
+.CustomTraining input{
+  background-color: white ;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+.CustomTraining form{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.CustomTraining textarea{
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+.CustomTraining input[type=submit]{
+  background-color: white;
+  width: 100%;
+  font-size: 20px;
+  
+}
